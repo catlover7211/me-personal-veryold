@@ -140,3 +140,9 @@ a{
   top: 50%;
   transform: translateY(-50%);
 }
+
+
+.animate {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}

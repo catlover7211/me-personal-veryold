@@ -4,4 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
         const loadingScreen = document.getElementById('loading-screen');
         loadingScreen.style.display = 'none';
     });
+
+    // 新增：點擊圖片時添加動畫效果
+    const images = document.querySelectorAll('.preview-image');
+    images.forEach(image => {
+        image.addEventListener('click', function() {
+            this.classList.add('animate');
+            // 這裡可以添加其他預覽邏輯
+        });
+    });
 });
+
