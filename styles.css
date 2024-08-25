@@ -109,7 +109,7 @@ a{
 /* HTML: <div class="loader"></div> */
 .loader {
   width: fit-content;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-family: 'Cubic', serif;
   white-space: pre;
   font-size: 30px;
