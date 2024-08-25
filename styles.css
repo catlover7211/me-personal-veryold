@@ -110,7 +110,7 @@ a{
 .loader {
   width: fit-content;
   font-weight: bold;
-  font-family: monospace;
+  font-family: 'Cubic', serif;
   white-space: pre;
   font-size: 30px;
   line-height: 1.2em;
