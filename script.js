@@ -15,3 +15,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// const box = document.querySelector('.box');
+
+// box.addEventListener('mouseover', () => {
+//     box.style.borderWidth = '10px'; 
+// });
+
+// box.addEventListener('mouseout', () => {
+//     box.style.borderWidth = '10px';
+// });

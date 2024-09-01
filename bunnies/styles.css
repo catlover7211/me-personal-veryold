@@ -53,7 +53,7 @@ a{
 
 @font-face {
     font-family: 'Cubic';
-    src: url('font/Cubic_11_1.200_R.woff') format("woff"),
+    src: url('../font/Cubic_11_1.200_R.woff') format("woff"),
     
 }
 
