@@ -48,7 +48,7 @@ p{
 }
 
 a{
-  color: pink;
+  color: white;
 }
 
 @font-face {
@@ -153,3 +153,38 @@ a{
     transition: transform 0.5s;
     transform: scale(1.1);
 }
+
+
+.box {
+    border: 1px solid pink;
+    padding: 10px;
+    /* 用粉色填滿 */
+    background-color: pink;
+    color: white;
+    /* 調整box的寬度 */
+    width: 350px;
+    /* 調整box的高度 */
+    height: 140px;
+    /* 邊匡改成圓角 */
+    border-radius: 20px;
+    /* 排版從至右邊 */
+    float: left;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    transform: scale(1);
+
+}
+/* 增加點擊特效 */
+
+.box:hover {
+    background-color: white;
+    color: pink;
+    /* 把<a>的顏色改成粉色 */
+    a{
+      color: pink;
+    }
+}
+
+
+
